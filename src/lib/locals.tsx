@@ -5,6 +5,7 @@ import { USFlag } from '@/components/icons/flags/USFlag';
 import { DEFlag } from '@/components/icons/flags/DEFlag';
 import { ILFlag } from '@/components/icons/flags/ILFlag';
 import { ESFlag } from '@/components/icons/flags/ESFlag';
+import { VNFlag } from '@/components/icons/flags/VNflag';
 
 import { SAFlagRound } from '@/components/icons/flags/SAFlagRound';
 import { CNFlagRound } from '@/components/icons/flags/CNFlagRound';
@@ -63,6 +64,13 @@ export let languageMenu = [
     name: 'Español',
     value: 'es',
     icon: <ESFlag width="20px" height="15px" />,
+    iconMobile: <ESFlagRound />,
+  },
+  {
+    id: 'vn',
+    name: 'Vietnamese',
+    value: 'vn',
+    icon: <VNFlag width="20px" height="15px" />,
     iconMobile: <ESFlagRound />,
   },
 ];
